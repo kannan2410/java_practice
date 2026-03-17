@@ -28,3 +28,5 @@ check the remotes
 if you remove the remote
 12. git remote remove origin
 
+if you want pull 
+git pull origin main
