@@ -1,0 +1,30 @@
+GitHub Basic command
+
+1. git init
+2. git add filename or dot
+3. git commit -m "Message"
+
+If you want any sub branch 
+4. git branch branch_name
+5. git checkout branch_name
+
+Push GitHub cloud 
+6. git remote origin add https:link
+7. git branch -M main (first time only use this command)
+8. git push origin -u branch-branch_name
+
+if you check the branchs name 
+9. git branch 
+
+if you want delete the branch 
+10. git branch -d branch_name
+
+if you want delete some file 
+11. git rm filename
+ 
+check the remotes 
+12. git remote -v
+
+if you remove the remote
+12. git remote remove origin
+
