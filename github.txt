@@ -11,7 +11,7 @@ If you want any sub branch
 Push GitHub cloud 
 6. git remote origin add https:link
 7. git branch -M main (first time only use this command)
-8. git push origin -u branch-branch_name
+8. git push origin branch-branch_name
 
 if you check the branchs name 
 9. git branch 
