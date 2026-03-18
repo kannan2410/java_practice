@@ -1,3 +1,4 @@
+package stack;
 class stack {
     static int[] stack = new int[100];
     static int top = -1;
