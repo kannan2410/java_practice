@@ -1,8 +1,5 @@
 package array_problems;
 
-import java.util.HashSet;
-import java.util.Set;
-
 class duplicaterm {
     
     // public static Set<Integer> duplicate(int[] nums){
