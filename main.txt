@@ -1,23 +1,12 @@
-num = [ 1,1,2,2,3];  
-num = [ 1,2,3,2,3];
+num = [10, 5, 20, 8]
 
+first = 10;
+second = 5;
 
-fast = 2; 2 + 1
-for slow 4; slow<nums.length; slow++;
-num[slow] = 3;
+for each element: 
+    if num > first:
+    second = first;
+    first = num
 
-
-
-num[fast] = 2; not equal num[slow] = 3
-fast increase one step 
-num[fast] = num[slow] 
-
-return fast =  3;
-for i = 0; i<fast; i++{
-    num[i]
-}
-
-i = 0 ; num[0] = 1
-i = 1 ; num[1] = 2
-i = 2 ; num[2] = 3
-
+    else if num > second and num != first:
+    second = num 
