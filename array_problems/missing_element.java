@@ -1,0 +1,26 @@
+package array_problems;
+
+//import java.util.HashSet;
+import java.util.Arrays;
+
+
+class missing_element{
+
+
+    public static void main(String[] args){
+        int[] nums =  {1,3,4,5};
+        int n = nums.length;
+        boolean[] presult = new boolean[n+1];
+        for(int val : nums){
+            if(val<=n){
+                presult[val] = true;
+            }
+        }
+        System.err.println(Arrays.toString(presult));
+        for(int i = 1; i<=n; i++){
+            if(!presult[i]){
+                System.out.println(i);
+            }
+        }
+    }
+}
