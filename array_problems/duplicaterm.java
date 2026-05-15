@@ -2,24 +2,6 @@ package array_problems;
 
 class duplicaterm {
     
-    // public static Set<Integer> duplicate(int[] nums){
-    //     Set<Integer> result = new HashSet<>();
-    //     for(int i =0; i<nums.length; i++){
-    //         if(!result.contains(nums[i])){
-    //             result.add(nums[i]);
-    //         }
-    //     }
-    //     return result;
-    // }
-
-    // public static void main(String[] args){
-    //     int[] nums = {1,1,2,2,3};
-    //     Set<Integer> out = duplicate(nums);
-    //     System.out.println("Remove duplicate values : " + duplicate(nums));
-    //     System.out.println("Length of array : " + out.size());
-    // }
-
-
     public static int duplicate(int[] nums){
         int fast = 0;
         for(int slow = 1; slow<nums.length; slow++){
@@ -48,3 +30,21 @@ class duplicaterm {
     }
 
 }
+
+
+ // public static Set<Integer> duplicate(int[] nums){
+    //     Set<Integer> result = new HashSet<>();
+    //     for(int i =0; i<nums.length; i++){
+    //         if(!result.contains(nums[i])){
+    //             result.add(nums[i]);
+    //         }
+    //     }
+    //     return result;
+    // }
+
+    // public static void main(String[] args){
+    //     int[] nums = {1,1,2,2,3};
+    //     Set<Integer> out = duplicate(nums);
+    //     System.out.println("Remove duplicate values : " + duplicate(nums));
+    //     System.out.println("Length of array : " + out.size());
+    // }
